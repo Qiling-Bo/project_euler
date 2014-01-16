@@ -31,7 +31,6 @@ def problem10():
     result = 0
     while(curr < limit):
         result += curr
-        print result
         curr = nextprime(curr)
     return result
 
